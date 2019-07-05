@@ -1,0 +1,1 @@
+# libcurl_android_ndk
