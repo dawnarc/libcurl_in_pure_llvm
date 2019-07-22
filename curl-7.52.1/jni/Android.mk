@@ -19,8 +19,9 @@ LOCAL_COPY_HEADERS := $(addprefix curl/include/curl/,$(HHEADERS))
 
 LOCAL_MODULE:= libcurl
 
-#include $(BUILD_STATIC_LIBRARY)
+# Build static library  
+include $(BUILD_STATIC_LIBRARY)
 
-# Build shared library now
-include $(BUILD_SHARED_LIBRARY)
+# Build shared library  
+#include $(BUILD_SHARED_LIBRARY)
 
